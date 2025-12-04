@@ -1,0 +1,35 @@
+:root {
+    --social-green: #68c046; 
+    --social-dark-green: #4cae4c;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar {
+    border-bottom: 1px solid #eee;
+}
+
+.bg-social-green {
+    background-color: var(--social-green) !important;
+}
+
+.icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-box {
+    width: 30px;
+    text-align: center;
+}
+
+.progress-bar-custom {
+    border-radius: 5px;
+}
